@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Calibri", 'Trebuchet MS', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+.section1{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+nav h1{
+    font-size: 30px;
+    display: flex;
+    gap: 8px;
+}
+h1 i{
+    rotate: 100deg;
+    display: inline-block;
+    font-size: 30px;
+}
+
+nav h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+nav button{
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.center{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    padding: 80px 100px;
+    /* gap: 0px 150px;   (Row gap) (column gap) */
+}
+
+.center-part1{  
+    height: 100%;
+    width: 42%;
+}
+
+.center-part1 h1{
+    line-height: 1.2;
+    font-size: 60px;
+}
+.center-part1 p{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.center-part1 button{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+
+.center-part2{
+    height: 100%;
+    width: 58%;
+    position: relative;
+}
+
+.center-part2 img{
+    height: 100%;
+    right: 0;
+    position: absolute;
+}
+
+.section1Bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 120px
+}
+
+.section1Bottom img{
+    height: 40px;
+}
+
+.section2 .services{
+    display: flex;
+    padding: 170px 120px;
+    gap: 50px;
+}
+
+.services h3{
+    font-size: 30px;
+    background-color: greenyellow;
+    border-radius: 5px;
+    padding: 2px 10px 2px 10px;
+}
+
+.services p{
+    width:40%;
+}
+
+.container{
+    min-height: 86vh;
+    width: 100%;
+    padding: 40px 160px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.elem{
+    flex-shrink: 0;
+    height: 200px;
+    width: 40%;
+    border: 3px solid black;
+    border-radius: 30px;
+    box-shadow: 0px 10px 0px black;
+    padding: 20px;
+    display: flex;
+    font-weight: 400;
+}
+
+.elem-part1{
+    height:100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.elem-part2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elem-part2 img{
+    height: 120px;
+}
+
+.elem-part1 h2{
+    background-color: greenyellow;
+    width: 80%;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+.ri-arrow-right-up-line{
+    font-size: 30px;
+    background-color: black;
+    border-radius: 50%;
+    color: greenyellow;
+    margin-right: 10px;
+}
+.black{
+    background-color: black;
+}
+
+.black .elem-part1 h2{
+    background-color: whitesmoke;
+}
+
+.black .elem-part1 h4{
+    color: whitesmoke;
+}
+
+.black .elem-part1 .ri-arrow-right-up-line{
+    background-color: white;
+    color: black;
+}
+/* Page 3 */
+.page3{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.prop{
+    height: 35%;
+    width:80%;
+    background-color: rgb(222, 216, 216);
+    padding: 60px 100px;
+    border-radius: 40px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0px 50px;
+}
+
+.prop .part1{
+    height: 100%;
+    width: 35%;
+}
+.page3 .part1 h3{
+    font-size: 30px;
+}
+
+.page3 .part1 p{
+    margin: 30px 0px 40px 0px;
+}
+.page3 .part1 button{
+    width: 250px;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+.prop .part2 {
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+.prop img {
+    width: 300px;
+    height: auto;
+}
+
+.section3 .caseStudy{
+    display: flex;
+    padding: 150px 120px;
+    gap: 50px;
+}
+
+.caseStudy h3{
+    font-size: 30px;
+    background-color: greenyellow;
+    border-radius: 5px;
+    padding: 2px 10px 2px 10px;
+}
+
+.caseStudy p{
+    width:40%;
+}
+
+
+.outer-container {          
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding-bottom: 150px;     /* Resolved */
+  }
+  
+  .cards-container {
+    display: flex;
+    align-items: center;
+    background-color: #1f1f1f; 
+    padding: 60px 80px;
+    border-radius: 50px; 
+  }
+  
+  /* Individual card styling */
+  .card {          
+    color: #fff; 
+    max-width: 250px; 
+    margin: 0 30px; 
+    text-align: left; 
+  }
+  
+  /* Divider styling */              /*not working*/         
+  .divider {
+    width: 1px; 
+    background-color: #faf7f7; 
+    height: 200px; 
+    margin: 0px 20px;
+  }
+  
+   /* Learn more link styling */
+  .cards-container h4 {
+    color: #a3ff00; 
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-right:10px;  /*margin-right not working*/ /*Beacuse h4 is not a div*/
+  }  
+
+  .learnMoreSpace{          /*Now the margin is working*/
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 20px;
+  }
+
